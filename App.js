@@ -52,9 +52,9 @@ export default function App() {
 
       const grams = litres * 8 * 4.5
 
-      const weight = weight.toString().replace(/,/g, '.') 
+      const weight_p = weight.toString().replace(/,/g, '.') 
 
-      const burned = parseFloat(weight) / 10
+      const burned = parseFloat(weight_p) / 10
 
       const grams_left = grams - burned * hours
 
